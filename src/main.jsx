@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Header from './header.jsx'
 import StatCards from './StatCards.jsx'
 import Projects from './Projects.jsx'
+import RecentTasks from './RecentTasks.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <StatCards/>
     <Projects />
+    <RecentTasks />
   </StrictMode>,
 )
