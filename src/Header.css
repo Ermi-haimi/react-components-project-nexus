@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icons {
+    /* display: flex; */
+    border: 1px dashed blue
+}
