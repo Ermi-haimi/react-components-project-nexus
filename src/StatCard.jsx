@@ -1,10 +1,10 @@
 import './StatCard.css'
 
-function StatCard(probs) {
-    return <div>
-        <p>{probs.statName}</p>
-        <p>{probs.stat}</p>
-        <p>{probs.statDiscription}</p>
+function StatCard(props) {
+    return <div className='stat-card'>
+        <p>{props.statName}</p>
+        <p>{props.stat}</p>
+        <p>{props.statDiscription}</p>
     </div>
 }
 
