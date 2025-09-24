@@ -1,3 +1,5 @@
+import './RecentTasks.css'
+
 import RecentTask from "./RecentTask";
 
 function RecentTasks() {

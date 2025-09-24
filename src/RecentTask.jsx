@@ -1,6 +1,7 @@
-
+import './RecentTask.css'
+    
 function RecentTask(props) {
-    return <div>
+    return <div className='recent-task'>
         <h3>{props.taskName}</h3>
         <p>{props.taskDiscription}</p>
         <div className="task-info">
