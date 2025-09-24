@@ -1,4 +1,5 @@
 import StatCard from './StatCard'
+import './StatCards.css'
 
 function StatCards () {
   return (

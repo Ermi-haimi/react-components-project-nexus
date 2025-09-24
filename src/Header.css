@@ -7,9 +7,18 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .header-icons {
-    /* display: flex; */
-    border: 1px dashed blue
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem
+}
+
+.header-icons svg {
+    width: 17px;
+    color: gray;
 }

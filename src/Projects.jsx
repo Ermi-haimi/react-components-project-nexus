@@ -1,3 +1,4 @@
+import './projects.css'
 import Project from "./Project"
     
 function Projects () {
