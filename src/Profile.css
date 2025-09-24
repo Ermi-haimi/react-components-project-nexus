@@ -1,0 +1,45 @@
+.profile {
+    /* border: 2px dashed blue; */
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro
+}
+
+img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.erase {
+    display: none;
+}
+
+.person {
+    /* border: 2px dashed skyblue; */
+    display: flex;
+    gap: 1rem
+}
+
+.person-discription {
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+.person-discription p:nth-child(2) {
+    font-size: 0.9rem;
+    color: gray
+}
+
+.john {
+    margin-top: 10px;
+}

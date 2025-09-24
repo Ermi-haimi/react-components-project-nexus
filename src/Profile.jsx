@@ -9,9 +9,9 @@ function Profile(props) {
                 <p>{props.name}</p>
                 <p>{ props.job}</p>
             </div>
-            <div className={props.className}>{props.email}</div>
+           
         </div>
-
+ <div className={props.className}>{props.email}</div>
     </div>
 }
 

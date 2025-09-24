@@ -1,0 +1,12 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
