@@ -1,0 +1,17 @@
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+li {
+    color: rgb(206, 205, 205);
+    font-size: 0.8rem;
+}
