@@ -8,6 +8,7 @@ import Projects from './Projects.jsx'
 import RecentTasks from './RecentTasks.jsx'
 import Team from './Team.jsx'
 import Notifications from './Notifications.jsx'
+import RecentActivities from './RecentActivities.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     <Projects />
     <RecentTasks />
     <Team />
-<Notifications />
+    <Notifications />
+    <RecentActivities />
   </StrictMode>,
 )

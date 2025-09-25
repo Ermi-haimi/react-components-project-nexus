@@ -1,0 +1,19 @@
+.activity {}
+
+
+.activity p:first-child {
+    font-size: 0.9rem;
+}
+
+.activity p span:first-child {
+    color: rgb(88, 87, 87);
+}
+
+.activity p span:last-child {
+    color: rgb(2, 103, 219)
+}
+
+.activity p:last-child {
+    font-size: 0.8rem;
+    color: rgb(163, 162, 162);
+}
