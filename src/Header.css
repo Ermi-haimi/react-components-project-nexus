@@ -20,5 +20,12 @@ header {
 
 .header-icons svg {
     width: 17px;
+    height: 17px;
     color: gray;
+    padding: 10px
+}
+
+.header-icons svg:hover {
+    background-color: rgba(229, 229, 229, 0.954);
+    border-radius: 5px;
 }
