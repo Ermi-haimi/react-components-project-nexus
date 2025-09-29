@@ -6,7 +6,9 @@
     flex-direction: column;
     gap: 15px;
     border-radius: 10px;
-    border: 1px solid gainsboro
+    border: 1px solid gainsboro;
+    height: fit-content;
+    /*vertical-align: bottom; */
 }
 
 .stat-card p:first-child {

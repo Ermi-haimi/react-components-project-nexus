@@ -1,0 +1,33 @@
+@media (min-width:1280px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1000px 280px;
+        width: 100vw;
+        max-width: 100%;
+        grid-template-rows: auto;
+    }
+
+    .projects-container {
+        grid-column: 1/2;
+    }
+
+    .recent-task-container {
+        grid-column: 1/2;
+    }
+
+    .notification-container {
+        grid-column: 2/-1;
+        grid-row: 3/sapn 1;
+    }
+
+    .team {
+        grid-column: 2/-1;
+        grid-row: 1/sapn 1;
+    }
+
+    .recent-activity-container {
+        grid-column: 2/-1;
+    }
+
+}
